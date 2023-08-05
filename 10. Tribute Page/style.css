@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+/* CSS - Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: calc(1em + 0.5rem);
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* CSS - Variables */
+
+:root {
+  --COLOR-GREY: #eee;
+  --COLOR-WHITE: #fff;
+  --COLOR-BLACK: #333;
+  --COLOR-LINK: #477ca7;
+  --COLOR-LINK-VISITED: #74638f;
+}
+
+
+/* CSS - General */
+
+html {
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.1rem;
+  color: var(--COLOR-BLACK);
+}
+
+#main {
+  background-color: var(--COLOR-GREY);
+  margin: 30px 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+
+header>p {
+  margin-bottom: 15px;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--COLOR-WHITE);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#image {
+  margin: 20px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  margin: 0px 15px 15px 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+h3 {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+.footer>p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.footer>p>a:link {
+  color: var(--COLOR-LINK);
+}
+
+.footer>p>a:visited {
+  color: var(--COLOR-LINK-VISITED);
+}

@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin-bottom: 0;
+}
+
+body {
+  display: flex;
+}
+
+.image-container-left {
+  position: relative;
+  width: 30%;
+  height: 100vh;
+}
+
+.image-container-left .background-img {
+  width: 100%;
+  height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  top: 185px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.256);
+  width: 100%;
+  font-size: 30px;
+}
+
+
+.logo {
+  height: 100px;
+}
+
+
+.form-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+  background-color: rgb(249, 248, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 115px;
+}
+
+
+.card {
+  background-color: white;
+  height: 35%;
+  width: 100%;
+  box-shadow: 0 25px 25px -25px rgba(0, 0, 0, 0.25);
+}
+
+.create-account-login-container {
+  margin-left: 40px;
+  margin-top: 32px;
+  top: 800px;
+}
+
+.create-account-btn {
+  background-color: #596D48;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5em;
+  color: azure;
+  width: 10em;
+}
+
+
+.login-text {
+  margin-top: 20px;
+}
+
+.login-text a {
+  color: #596D48;
+}
+
+form,
+.card-title {
+  display: flex;
+  gap: 64px;
+  margin-left: 40px;
+  margin-top: 16px;
+}
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form input {
+  margin-bottom: 28px;
+  height: 30px;
+  width: 260px;
+  border: 2px solid rgba(168, 168, 168, 0.332);
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(168, 168, 168, 0.332);
+}
+
+form label {
+  font-size: 12px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.para2 {
+  font-size: 1.4rem;
+  width: 700px;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+input[type=text]:focus {
+  border: 2px solid blue;
+}
+
+input[type=password]:focus {
+  border: 3px solid red;
+}

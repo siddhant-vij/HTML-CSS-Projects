@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin - Signup Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="image-container-left">
+
+    <img class="background-img" src="images/background.jpg" alt="image">
+    <div class="logo-container">
+      <img class="logo" src="images\odin-lined.png" alt="logo" title="ODIN">
+      <h1 class="logo-title">ODIN</h1>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="form-container-right">
+
+    <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate architecto maxime quam,
+      dolorum eos culpa cum asperiores qui quia possimus, fuga reprehenderit molestias labore!</p>
+
+    <p class="para2">You know you want to</p>
+
+    <div class="card">
+      <div class="card-title">Let's do this!</div>
+      <form action="#" method="post">
+        <div class="col">
+          <div>
+            <label for="first_name">FIRST NAME</label>
+          </div>
+          <div>
+            <input type="text" id="first_name">
+          </div>
+
+          <div>
+            <label for="email">EMAIL</label>
+          </div>
+          <div>
+            <input type="email" id="email">
+          </div>
+
+          <div>
+            <label for="password">PASSWORD</label>
+          </div>
+          <div>
+            <input type="password" id="password">
+          </div>
+        </div>
+
+        <div class="col">
+          <div>
+            <label for="last_name">LAST NAME</label>
+          </div>
+          <div>
+            <input type="text" id="last_name">
+          </div>
+
+          <div>
+            <label for="phone_number">PHONE NUMBER</label>
+          </div>
+          <div>
+            <input type="text"
+              onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
+              id="phone_number">
+          </div>
+
+          <div>
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+          </div>
+          <div>
+            <input type="password" id="confirm_password">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="create-account-login-container">
+      <button type="submit" class="create-account-btn">Create Account</button>
+      <div class="login-text">Already have an account? <a href="#">Log in</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
